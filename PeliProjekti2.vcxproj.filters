@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{25b7b527-4bcf-4e61-8265-795cb8feed86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Header">
+      <UniqueIdentifier>{f0469319-a8fc-4e20-a134-b3e3db302e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Source">
+      <UniqueIdentifier>{caa9494d-5dee-48dc-8371-753b38647db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Saving">
+      <UniqueIdentifier>{b77c8817-1009-4336-9dca-d39fd406dca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{06edd6d9-db2e-4e35-beb0-ec3fcfd2c58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemies">
+      <UniqueIdentifier>{328416fc-535b-4995-bbcd-1c619dbdc0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shots">
+      <UniqueIdentifier>{7436df90-a106-4554-b2c6-e7f77e171c7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Scenes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>Source Files\Scenes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneParent.cpp">
+      <Filter>Source Files\Scenes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSys.cpp">
+      <Filter>Source Files\Scenes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveAndLoad.cpp">
+      <Filter>Source Files\Saving</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveGame.cpp">
+      <Filter>Source Files\Saving</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTimer.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Lima.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot.cpp">
+      <Filter>Source Files\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="PistolShot.cpp">
+      <Filter>Source Files\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponManager.cpp">
+      <Filter>Source Files\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Scenes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>Source Files\Scenes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneParent.h">
+      <Filter>Source Files\Scenes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSys.h">
+      <Filter>Source Files\Scenes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveGame.h">
+      <Filter>Source Files\Saving</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveAndLoad.h">
+      <Filter>Source Files\Saving</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTimer.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Source Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Lima.h">
+      <Filter>Source Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot.h">
+      <Filter>Source Files\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="PistolShot.h">
+      <Filter>Source Files\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponManager.h">
+      <Filter>Source Files\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
